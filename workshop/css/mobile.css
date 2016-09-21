@@ -1,0 +1,38 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+/* STYLES GO HERE */
+body{
+	background-color: #fff;
+}
+html, body {
+	width: 100%;
+    height: auto;
+    background-size: cover;
+    background:url("../cover.jpg") no-repeat center center fixed;
+}
+div{
+	margin: auto;
+    width: 80%;
+   
+}
+h1{
+	text-align: center;
+    text-decoration: none;
+}
+.authorbutton{
+	width: 50%;
+    white-space: normal;
+}
+.bookbutton{
+	width: 50%;
+    white-space: normal;
+}
+.table{
+	background-color: #606060;
+	opacity: 0.9;
+	color: white;
+}
+
+}
